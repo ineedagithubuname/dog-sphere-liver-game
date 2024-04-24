@@ -1,0 +1,135 @@
+h1{
+    color: rgb(255, 255, 255);
+    font-family: "comic sans ms";
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(40, 39, 39);
+
+}
+
+
+#game{
+    width: 600px;
+}
+
+#bamboo1{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo2{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo3{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo4{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo5{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo6{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo7{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+#bamboo8{ 
+    width: 140px; 
+    height: 130px; 
+    float: left;
+    background-image: url(bamboo.png); 
+    background-size: 100%;
+}
+
+
+#bamboo1:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}#bamboo2:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo3:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo4:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo5:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo6:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo7:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo8:hover{
+    background-image: url(questionMark.png); cursor:pointer;
+    background-size: 140px 130px;
+}
+#bamboo1:active{
+    background-image: url(old_man.png)
+}
+#bamboo2:active{
+    background-image: url(doctor_guy.png)
+}
+#bamboo3:active{
+    background-image: url(snowLeopard2.jpg)
+}
+#bamboo4:active{
+    background-image: url(old_man.png)
+}
+#bamboo5:active{
+    background-image: url(snowLeopard2.jpg)
+}
+#bamboo6:active{
+    background-image: url(dog_with_a_gun.jpg)
+}
+#bamboo7:active{
+    background-image: url(doctor_guy.png)
+}
+#bamboo8:active{
+    background-image: url(baby_liver.jpg)
+}
+
+
+div{
+    text-align: left; 
+    
+}
