@@ -1,72 +1,86 @@
 h1{
     color: rgb(255, 255, 255);
     font-family: "comic sans ms";
-    font-size: 30px;
+    font-size: 95px; 
+    text-align: right;
 }
-
+h2{color: rgb(255, 255, 255);
+    font-family: "comic sans ms";
+    font-size: 30px;
+text-align: right  ;}
 body{
     background-color: rgb(40, 39, 39);
 
 }
-
-
+#mabel_sphere2{
+   
+    transform: rotate(360deg);
+    width: 400px; height: 300px;
+    animation: spin 3.5s infinite
+  }  
+  @keyframes spin {
+    from { transform: rotate(0deg) }
+    to { transform: rotate(360deg) }}
+  
+ 
 #game{
+    float: right;
     width: 600px;
 }
 
 #bamboo1{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo2{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo3{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo4{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo5{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo6{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo7{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
 #bamboo8{ 
     width: 140px; 
     height: 130px; 
-    float: left;
+    float: right;
     background-image: url(bamboo.png); 
     background-size: 100%;
 }
@@ -133,3 +147,4 @@ div{
     text-align: left; 
     
 }
+h1{float: left;}
